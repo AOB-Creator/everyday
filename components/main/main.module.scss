@@ -148,3 +148,16 @@
     width: 80%;
   }
 }
+
+@media (max-width: 600px) and (min-width: 200px) {
+  .bottom_place {
+    position: absolute;
+    // background-color: rebeccapurple;
+    // height: 30px;
+    width: 83%;
+    right: 60px;
+    // padding: 0 40px;
+    bottom: 50px;
+    display: flex;
+  }
+}
