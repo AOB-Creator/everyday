@@ -135,6 +135,15 @@
 }
 
 @media (max-width: 500px) and (min-width: 200px) {
+  .mainpage {
+    padding: 30px 0;
+    height: 85vh;
+    // background-color: forestgreen !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
   .textpart {
     // background-color: rebeccapurple;
     width: 100%;
