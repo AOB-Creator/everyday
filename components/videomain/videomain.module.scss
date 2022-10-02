@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: $whitecol;
+    color: $whitecol !important;
     background-color: black;
     cursor: pointer;
     &:active {
