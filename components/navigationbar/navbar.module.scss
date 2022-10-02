@@ -115,6 +115,7 @@
       flex-direction: column;
       align-items: flex-start;
       padding: 20px 30px;
+
       .btn {
         position: absolute;
         right: 30px;
@@ -180,11 +181,12 @@
       .btn {
         position: absolute;
         right: 30px;
+        top: 0 !important;
         margin: 15px 0;
         .btnicons {
           transform: rotate(180deg);
           color: $whitecol !important;
-          font-size: 30px;
+
           transition: 0.5s;
         }
       }
