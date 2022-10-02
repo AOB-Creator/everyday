@@ -37,3 +37,16 @@
     }
   }
 }
+
+@media (max-width: 600px) and (min-width: 300px) {
+  .content {
+    width: 90% !important;
+    height: 30% !important;
+    background-color: black;
+    border: 1px solid rgb(151, 151, 151);
+    .fullvideo {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
