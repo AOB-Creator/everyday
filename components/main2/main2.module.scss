@@ -1,0 +1,58 @@
+@use "../../styles/variables.module.scss" as *;
+
+.main2 {
+  height: 100vh;
+  display: flex;
+  .topmain2 {
+    height: 100%;
+    flex: 1;
+    .topside {
+      height: 30vh;
+      background-color: $blackcol;
+    }
+    .botside {
+      height: 70vh;
+      background-color: $whitecol;
+    }
+  }
+  .bottommain2 {
+    height: 100%;
+    background-color: $whitecol;
+    flex: 10;
+    // background: url(https://bitcoinist.com/wp-content/uploads/2020/01/shutterstock_1115578535.jpg);
+    // background: url(https://thehimalayantimes.com/uploads/imported_images/wp-content/uploads/2018/11/AP18315382475422.jpg);
+    background: url(https://www.every-day.nl/app/uploads/2020/01/hero-img-1536x694.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    .carousel {
+      width: 100%;
+      height: 20vh;
+      // background-color: rebeccapurple;
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.851), rgba(5, 5, 5, 0));
+      display: flex;
+      .left_carousel {
+        flex: 1;
+        // background-color: rebeccapurple;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+          width: 60%;
+          font-size: 20px;
+        }
+      }
+      .right_carousel {
+        flex: 5;
+        .right_carousels {
+          width: 100% !important;
+          height: 100% !important;
+          overflow: hidden !important;
+          position: relative;
+          background-color: rebeccapurple !important;
+        }
+      }
+    }
+  }
+}

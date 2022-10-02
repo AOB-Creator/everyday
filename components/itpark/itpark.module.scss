@@ -1,0 +1,21 @@
+.itpark {
+  // height: 100vh;
+  background-color: rgb(58, 104, 58);
+  position: relative;
+  .box {
+    height: 300vh;
+  }
+  .fixed {
+    position: fixed;
+    top: 50%;
+    right: 0;
+  }
+  .video {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+  }
+}

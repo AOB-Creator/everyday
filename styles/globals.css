@@ -11,6 +11,12 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 95%;
+}
+
 * {
   box-sizing: border-box;
 }
