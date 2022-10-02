@@ -57,6 +57,7 @@
 }
 .nav li a {
   text-transform: capitalize;
+  color: $whitecol !important;
 }
 .nav li::after {
   position: absolute;
