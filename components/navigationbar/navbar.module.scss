@@ -6,6 +6,7 @@
   top: 0;
   left: 0;
   right: 0;
+  background-color: $blackcol;
   z-index: 100;
 }
 
@@ -174,7 +175,7 @@
       align-items: flex-start;
       padding: 20px 30px;
       // background-color: $blackcol;
-      background-color: rebeccapurple !important;
+
       .btn {
         position: absolute;
         right: 30px;
@@ -203,9 +204,10 @@
         }
       }
     }
-    .activenavs.menus {
+    .activenavs {
       left: 0% !important;
       transition: 0.5s;
+      padding: 20px 30px !important;
       margin: 0 !important;
     }
   }
