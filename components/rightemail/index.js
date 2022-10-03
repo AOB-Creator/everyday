@@ -6,14 +6,14 @@ function RightEmail() {
   return (
     <div className={styles.rightpart}>
       <div className={styles.email}>
-        <Link href={"/email"}>
+        <Link href={"mailto:alpamisomirbekov630@gmail.com"}>
           <a>
             <BsEnvelope />
           </a>
         </Link>
       </div>
       <div className={styles.phone}>
-        <Link href={"phone"}>
+        <Link href={"tel:+998913934469"}>
           <a>
             <BsTelephoneOutbound />
           </a>
