@@ -99,7 +99,9 @@
 @media (max-width: 800px) and (min-width: 551px) {
   .business {
     height: 100vh !important;
+    background-color: $blackcol !important;
     .leftbuss {
+      background-color: $blackcol !important;
       .text {
         font-size: 35px !important;
       }
@@ -125,6 +127,7 @@
     height: auto !important;
     background-color: $blackcol !important;
     .leftbuss {
+      background-color: $blackcol !important;
       .text {
         font-size: 35px !important;
       }
