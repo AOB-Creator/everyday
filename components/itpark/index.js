@@ -4,7 +4,8 @@ import RightEmail from "../../components/rightemail";
 import VideoMain from "../../components/videomain";
 import { createContext, useContext, useState } from "react";
 import Main2 from "../main2/index";
-
+import WhitePlace from "./thispage/whiteplace";
+import Bussines from "./thispage/everydaybussiness";
 let ProvData = createContext();
 function Itpark() {
   let [visible, setVisible] = useState(false);
@@ -24,7 +25,9 @@ function Itpark() {
           <></>
         )}
       </div>
-      {/* <Main2 /> */}
+      <Main2 />
+      <WhitePlace />
+      <Bussines />
     </ProvData.Provider>
   );
 }

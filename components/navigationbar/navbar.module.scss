@@ -6,8 +6,8 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: $blackcol;
-  z-index: 1;
+  background-color: $blackcol !important;
+  z-index: 5;
 }
 
 .container {
