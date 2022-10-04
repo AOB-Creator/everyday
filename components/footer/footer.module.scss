@@ -1,0 +1,201 @@
+@use "../../styles/variables.module.scss" as *;
+.footer_page {
+  background-color: $blackcol;
+  height: auto;
+  .highlight {
+    height: 90vh;
+    display: flex;
+    .lefthigh {
+      flex: 80%;
+      background-color: $footercol;
+      padding: 30px 20px;
+      color: white;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+      h1 {
+        font-weight: 300;
+        font-size: 45px;
+      }
+      p {
+        color: $graytext;
+        font-size: 20px;
+        width: 70%;
+        font-weight: 300;
+      }
+      .boxes {
+        width: 100%;
+        display: flex;
+        ul {
+          li {
+            margin: 10px 0;
+            color: $bgwhite;
+          }
+          list-style: none;
+          &:nth-child(1) {
+            flex: 2;
+            li {
+              padding: 10px 0;
+              a {
+                font-size: 20px;
+              }
+              &:nth-child(1) {
+                text-decoration: underline;
+              }
+            }
+          }
+          &:nth-child(2) {
+            flex: 1;
+          }
+          &:nth-child(3) {
+            flex: 1;
+          }
+        }
+      }
+    }
+
+    .righthigh {
+      flex: 20%;
+      .toph {
+        height: 20%;
+        background-color: $whitecol;
+      }
+      .bottomh {
+        height: 80%;
+        background: $blackcol;
+      }
+    }
+  }
+  .footer {
+    height: auto;
+    .top {
+      height: 5vh;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      img {
+        width: 130px;
+      }
+    }
+    .bottom {
+      height: 15vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .left {
+        a {
+          color: $graycols;
+          font-size: 12px;
+          margin-right: 13px;
+          text-decoration: underline;
+        }
+      }
+      .right {
+        img {
+          width: 60px;
+        }
+      }
+    }
+  }
+}
+.container {
+  width: 95%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1000px) and (min-width: 801px) {
+  .footer_page {
+    .highlight {
+      height: 90vh;
+      .lefthigh {
+        flex: 93%;
+      }
+      .righthigh {
+        flex: 7%;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) and (min-width: 751px) {
+  .footer_page {
+    .highlight {
+      height: 70vh;
+      .lefthigh {
+        flex: 100%;
+        h1 {
+          font-size: 35px !important;
+        }
+        p {
+          color: $graytext;
+          font-size: 20px;
+          width: 70%;
+          font-weight: 300;
+        }
+        .boxes {
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+          ul {
+            &:nth-child(1) {
+              flex: 1 !important;
+            }
+            &:nth-child(2) {
+              flex: 1;
+            }
+            &:nth-child(3) {
+              flex: 1;
+            }
+          }
+        }
+      }
+      .righthigh {
+        flex: 0%;
+      }
+    }
+  }
+}
+@media (max-width: 750px) and (min-width: 301px) {
+  .footer_page {
+    .highlight {
+      height: auto;
+      .lefthigh {
+        flex: 100%;
+        h1 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 14px;
+        }
+        .boxes {
+          display: flex;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+          ul {
+            padding: 0;
+            padding-right: 15px;
+            li {
+              font-size: 14px;
+            }
+            &:nth-child(1) {
+              flex: 1 !important;
+            }
+            &:nth-child(2) {
+              flex: 1;
+              min-width: 150px;
+            }
+            &:nth-child(3) {
+              flex: 1;
+            }
+          }
+        }
+      }
+      .righthigh {
+        flex: 0%;
+      }
+    }
+  }
+}

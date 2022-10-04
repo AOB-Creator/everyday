@@ -13,11 +13,11 @@ function RightEmail() {
         </Link>
       </div>
       <div className={styles.phone}>
-        <a href={"tel:+998913934469"}>
+        <Link href={"tel:+998913934469"}>
           <a>
             <BsTelephoneOutbound />
           </a>
-        </a>
+        </Link>
       </div>
     </div>
   );

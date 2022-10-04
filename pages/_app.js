@@ -1,4 +1,5 @@
 import Navigationbar from "../components/navigationbar";
+import Footer from "../components/footer";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
@@ -6,6 +7,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Navigationbar />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }
