@@ -44,6 +44,7 @@
   .btncarousel {
     width: 60px;
     height: 60px;
+    color: white;
     background-color: rgba(0, 0, 0, 0.552);
     position: absolute;
     cursor: pointer;
@@ -83,6 +84,8 @@
       .textleft {
         font-size: 23px;
         transform: translateX(-5px);
+        color: white;
+        font-weight: 500;
         transition: 0.2s;
       }
       .textright {
