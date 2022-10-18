@@ -1,4 +1,8 @@
 import styles from "./main2.module.scss";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
 
 function Main2() {
   return (
@@ -12,6 +16,7 @@ function Main2() {
           <div className={styles.left_carousely}>
             <p>Trots op onze klanten</p>
           </div>
+          <div className={styles.right_carousely}></div>
         </div>
       </div>
       <div className={styles.cards}></div>

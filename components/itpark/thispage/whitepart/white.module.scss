@@ -1,0 +1,75 @@
+@use "../../../../styles/variables.module.scss" as *;
+
+.white {
+  height: 70vh;
+  background-color: $whitecol;
+  color: $blackcol;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .textwhite {
+    width: 90%;
+    max-width: 1300px;
+
+    // height: 100%;
+    padding: 0 50px;
+    position: relative;
+    h3 {
+      font-size: 50px;
+      font-weight: 300;
+      color: $blackcol;
+      margin: 0;
+    }
+    p {
+      //   margin: 0;
+      font-size: 24px;
+      font-weight: 300;
+      color: $blackcol;
+      width: 60%;
+      color: rgb(53, 53, 53);
+    }
+    .link {
+      position: absolute;
+      bottom: 0%;
+      right: 0;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+
+      .linkicons {
+        font-size: 22px;
+        margin-right: 10px;
+        color: black;
+        transition: 0.4s;
+      }
+      span {
+        font-size: 16px;
+        text-transform: capitalize;
+      }
+      &:hover .linkicons {
+        transform: translateX(10px);
+        transition: 0.4s;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) and (min-width: 300px) {
+  .textwhite {
+    p {
+      font-size: 15px !important;
+      width: 100% !important;
+      // background-color: red;
+    }
+    h3 {
+      font-size: 23px !important;
+    }
+    .link {
+      position: absolute;
+      bottom: -20% !important;
+      right: 30px !important;
+    }
+  }
+}

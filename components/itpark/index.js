@@ -6,6 +6,9 @@ import { createContext, useContext, useState } from "react";
 import Main2 from "../main2/index";
 import WhitePlace from "./thispage/whiteplace";
 import Bussines from "./thispage/everydaybussiness";
+import WhitePart from "./thispage/whitepart";
+import MotionCards from "../motionpage";
+
 let ProvData = createContext();
 function Itpark() {
   let [visible, setVisible] = useState(false);
@@ -28,6 +31,8 @@ function Itpark() {
       <Main2 />
       <WhitePlace />
       <Bussines />
+      <WhitePart />
+      <MotionCards />
     </ProvData.Provider>
   );
 }
