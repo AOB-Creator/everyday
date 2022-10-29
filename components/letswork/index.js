@@ -7,7 +7,7 @@ function LetsWork() {
     <div className={styles.work}>
       <div className={styles.container}>
         <h1>
-          Let's <br /> work
+          Lets <br /> work
         </h1>
         <Link href="">
           <a className={styles.btn}>
