@@ -49,15 +49,13 @@ const MotionCards = function () {
     },
     {
       logo: "https://www.every-day.nl/app/uploads/2019/10/5.svg",
-      image:
-        "https://www.every-day.nl/app/uploads/2020/10/C-Cinema-mobile-tumb.jpg",
+      image: "https://www.every-day.nl/app/uploads/2022/06/Thumb-Verticaal.jpg",
       title: "Modoc",
       description: "Branding, Webdesign & campagnes ",
     },
     {
       logo: "https://www.every-day.nl/app/uploads/2019/08/Stripelight-logo-1.svg",
-      image:
-        "https://www.every-day.nl/app/uploads/2019/10/0._SADB_Tumb_highlight.jpg",
+      image: "https://www.every-day.nl/app/uploads/2021/11/Group-281.jpg",
       title: "Modoc",
       description: "Branding, Webdesign & campagnes ",
     },

@@ -1,4 +1,5 @@
+import Service from "../../components/servicer";
 function Services() {
-  return <div>Services</div>;
+  return <Service />;
 }
 export default Services;

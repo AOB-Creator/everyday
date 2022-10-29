@@ -14,10 +14,12 @@ function Navigationbar() {
         <div className={styles.nav}>
           <div className={styles.logo}>
             <Link href={"/"}>
-              <img
-                src="https://www.every-day.nl/app/themes/everyday/dist/images/everyday-logo.svg"
-                alt=""
-              />
+              <a>
+                <img
+                  src="https://www.every-day.nl/app/themes/everyday/dist/images/everyday-logo.svg"
+                  alt=""
+                />
+              </a>
             </Link>
           </div>
           <ul

@@ -44,7 +44,7 @@
   .btncarousel {
     width: 60px;
     height: 60px;
-    color: white;
+    color: white !important;
     background-color: rgba(0, 0, 0, 0.552);
     position: absolute;
     cursor: pointer;
@@ -84,7 +84,7 @@
       .textleft {
         font-size: 23px;
         transform: translateX(-5px);
-        color: white;
+        color: white !important;
         font-weight: 500;
         transition: 0.2s;
       }
@@ -96,7 +96,7 @@
         font-size: 17px;
         .icons {
           transform: rotate(-90deg) translateX(-2px);
-          color: rgba(25, 193, 25, 0.579);
+          color: rgba(65, 192, 46, 0.968);
         }
       }
     }

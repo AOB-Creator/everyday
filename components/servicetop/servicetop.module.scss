@@ -1,0 +1,46 @@
+@use "../../styles/variables.module.scss" as *;
+
+.service {
+  height: 100vh;
+  background-color: $whitecol;
+  .container {
+    height: 100vh;
+    color: $blackcol;
+    width: 95%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    h3 {
+      width: 80%;
+      font-size: 50px;
+      font-weight: 300;
+    }
+    p {
+      font-size: 21px;
+      font-weight: 300;
+      line-height: 2em;
+      span {
+        font-weight: 600;
+      }
+    }
+    .bot {
+      width: 40%;
+      height: 7vh;
+      // background-color: firebrick;
+      display: flex;
+      .bot1 {
+        flex: 1;
+
+        img {
+          width: 80%;
+        }
+      }
+      .bot2 {
+        flex: 4;
+      }
+    }
+  }
+}
